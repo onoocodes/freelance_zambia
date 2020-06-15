@@ -1,0 +1,16 @@
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+
+{
+    "email" : "onoocodes@gmail.com",
+    "password" : "password"
+}
+
+
+
+
+###
+
+
+GET http://localhost:3000/user/logout
